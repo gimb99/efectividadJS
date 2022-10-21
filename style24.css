@@ -1,0 +1,159 @@
+body {
+    /* texto general */
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 20px;
+font-size: 1.5vw;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #F1F1F1;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+
+text-align: center;
+width: inherit;
+
+background: #E6E657;
+background: -webkit-radial-gradient(circle farthest-side at bottom right, #E6E657 0%, #2A4F54 54%);
+background: -moz-radial-gradient(circle farthest-side at bottom right, #E6E657 0%, #2A4F54 54%);
+background: radial-gradient(circle farthest-side at bottom right, #E6E657 0%, #2A4F54 54%);
+
+ /* 
+ background: url("./backgroundAddin.png"), rgb(65,0,43);
+ background: url("./backgroundAddin.png"), linear-gradient(176deg, rgba(65,0,43,1) 35%, rgba(169,100,10,1) 84%); 
+ */
+
+ background-attachment: fixed;
+ 
+}
+
+br.postBtn {
+  display: block;
+  margin: 3vh 0;
+}
+
+br.postItem {
+  display: block;
+  margin: 2vh 0;
+}
+
+br.form {
+  display: block;
+  margin: 0.5vw 0;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+a.btnComun
+{ 
+  padding: 0.7vw;
+  border-style: solid;
+  border-radius: 0.5vw;
+  border-color:peachpuff;
+  color: orange;
+  text-decoration: none;
+  background-color:darkslategray;
+}
+table{
+  background:rgb(197, 197, 197);
+  width: 60%;
+  vertical-align: middle;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+  color: black;
+  padding: 0.5vw;
+  font-weight:bolder;
+}
+
+tr{
+  font-weight:normal;
+  color:rgb(54, 31, 0);
+}
+
+a.btnVolver{
+  padding: 0.7vw;
+  border-style: solid;
+  border-radius: 0.5vw;
+  border-color:peachpuff;
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+  text-decoration: none;
+
+  position: fixed;
+  text-align: left;
+  left: 2%;
+}
+
+.Session{
+  position: fixed;
+  text-align: right;
+  right: 2%;
+
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+footer{
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+
+  position: fixed;
+  text-align: left;
+  left: 2%;
+}
+
+.btnLogout{
+  margin-top: 1vh;
+  height: 5vh; 
+  width: 10vw;
+  text-align: center;
+}
+
+.formEncuesta{
+  text-align: left;
+  margin-left: 5%;
+}
+
+fieldset{
+  text-align:left;
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.fieldsetRes{
+  text-align: justify;
+}
+
+input{
+  height: 5vh; 
+  width: 20vw; 
+  text-align: center;
+}
+
+.btnInput{
+  height: 5vh; 
+  width: 15vw; 
+  text-align: center;
+}
+
+.detail{
+  font-size: 14px;
+  font-size: 1vw;
+}
+
+h5{
+  text-decoration: underline;
+}
+
